@@ -182,7 +182,7 @@ export default function Home() {
         <Contact />
         <div className="text-center text-secondary mt-4">
           <div>
-            Icons made by{" "}
+            Ikoner laget av{" "}
             <a
               href="https://www.flaticon.com/authors/vectors-market"
               title="Vectors Market"
@@ -193,11 +193,11 @@ export default function Home() {
             <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">
               wanicon
             </a>
-            {" and "}
+            {" og "}
             <a href="https://www.freepik.com" title="Freepik">
               Freepik
             </a>{" "}
-            from{" "}
+            fra{" "}
             <a href="https://www.flaticon.com/" title="Flaticon">
               www.flaticon.com
             </a>
