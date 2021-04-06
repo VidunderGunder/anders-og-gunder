@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Component {...pageProps}>
       <Head>
-        <title>Din Utleier</title>
+        <title>Anders og Gunder</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     </Component>
