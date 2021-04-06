@@ -1,12 +1,10 @@
 import Image from "next/image";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import Head from "next/head";
+import { Col, Container, Row } from "react-bootstrap";
 import Contact from "components/Contact";
-import { relative } from "node:path";
-import { People } from "../components/People";
+import People from "components/People";
 
 export default function Home() {
-  const lorem = "Lorem ipsum dolor, sit amet consectetur adipisicing elit.";
-
   const offerings = [
     {
       title: "App & Web",
@@ -66,6 +64,10 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>Anders & Gunder</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div
         className="text-light"
         style={{

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
 
-export function People() {
+export default function People() {
   const quoteGunder =
-    '"Det beste som finnes er å nøste opp noe innviklet og gjøre det intuitivt og gøy for andre."';
+    '"Det er utrolig givende å nøste opp noe innviklet og gjøre det intuitivt og gøy for andre."';
   const quoteAnders = '"Ja."';
   return (
     <Row className="px-lg-5 px-xl-5 mx-xl-5 pt-5 mt-5 pb-3">
