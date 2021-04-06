@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Col, Container, Row } from "react-bootstrap";
 import Contact from "components/Contact";
 import People from "components/People";
+import Experience from "components/Experience";
 
 export default function Home() {
   const offerings = [
@@ -136,9 +137,9 @@ export default function Home() {
       </div>
       <Container>
         <div>
-          <div className="my-4 mb-sm-5 my-lg-5 text-center">
-            <h3>Lyst til å lage noe?</h3>
-            <h5>Vi hjelper deg.</h5>
+          <div className="my-5 text-center">
+            <h2>Lyst til å lage noe?</h2>
+            <h4>Vi hjelper deg.</h4>
           </div>
           <Row className="justify-content-center">
             {offerings.map((offering, offeringIndex) => {
@@ -176,6 +177,7 @@ export default function Home() {
           </Row>
         </div>
         <People />
+        <Experience />
       </Container>
       <div className="mt-5" />
       <div className="px-4 shadow py-4 bg-darker border-bottom border-top border-dark">

@@ -6,7 +6,7 @@ export default function People() {
     '"Det er utrolig givende å nøste opp noe innviklet og gjøre det intuitivt og gøy for andre."';
   const quoteAnders = '"Ja."';
   return (
-    <Row className="px-lg-5 px-xl-5 mx-xl-5 pt-5 mt-5 pb-3">
+    <Row className="px-lg-5 px-xl-5 mx-xl-5 pt-5 mt-sm-3 pb-3">
       <Col xs={12} className="mb-lg-n5">
         <div
           style={{
