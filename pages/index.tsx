@@ -5,6 +5,7 @@ import Offerings from "components/Offerings";
 import Hero from "components/Hero";
 import Footer from "components/Footer";
 import Meta from "components/Meta";
+import Practical from "components/Practical";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Offerings />
         <People />
         <Experience />
+        <Practical />
       </Container>
       <Footer />
     </>
