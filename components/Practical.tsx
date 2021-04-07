@@ -18,7 +18,7 @@ export default function Practical() {
       </Col>
       <Col xs={12}>
         <div style={{ display: "grid", placeItems: "center" }}>
-          <div style={{ maxWidth: 280, width: "75%" }}>
+          <div style={{ maxWidth: 625, width: "75%" }}>
             <h2 className="text-center my-5 pt-2">Priser</h2>
             <p>
               Vi vil at du får pengene dine verdt og at vi kan rettferdiggjøre
@@ -26,7 +26,7 @@ export default function Practical() {
               arbeidets iboende verdi.
             </p>
             <p>Her er noen vanlige alternativer:</p>
-            <ul>
+            <ul className="ml-sm-5">
               <li>400kr/timen* for ting vi er gode på</li>
               <li>Satte summer for milepæler</li>
               <li>Justert timelønn for utforskende arbeid</li>
