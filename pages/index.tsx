@@ -48,8 +48,8 @@ export default function Home() {
       image: "/images/car-simulation.png",
     },
     {
-      title: "Prosessforbedring",
-      description: <>Reduser flaskehalser og dobbeltarbeid.</>,
+      title: "Løsningsarkitektur",
+      description: <>Konkrete slagplaner for implementering.</>,
       image: "/images/strategy.png",
     },
     {

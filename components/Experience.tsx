@@ -43,7 +43,7 @@ function EXPCard({ label, image, children = null }) {
           <div className="lead text-light">{children}</div>
         </div>
       </div>
-      <Image src={image} layout="fill" objectFit="cover" />
+      <Image src={image} layout="fill" objectFit="cover" alt={label} />
     </div>
   );
 }
@@ -87,11 +87,37 @@ export default function Experience() {
             kommunene i Østfoldregionen.
           </EXPCard>
         </Col>
-        {/* <Col className="p-1" xs={12}>
-          <EXPCard label="Sensorikkpanel" image="/images/carculator.png">
-            Kartvisning i 3D av sensordata for SoundSensing.
+        <Col className="p-1" xs={12} lg={4}>
+          <EXPCard label="Bildegjenkjenning" image="/images/mus.png">
+            Bildegjenkjenningsverktøy for forskning på spissmus med krav til høy
+            presisjon og brukervennlighet.
           </EXPCard>
-        </Col> */}
+        </Col>
+        <Col className="p-1" xs={12} md={6} lg={4}>
+          <EXPCard label="Doseringsventil" image="/images/ventil.png">
+            Skreddersydd maskinering og kretsdesign til doseringsventil for bruk
+            i forskning.
+          </EXPCard>
+        </Col>
+        <Col className="p-1" xs={12} md={6} lg={4}>
+          <EXPCard
+            label="Tørking av kaffebønner"
+            image="/images/sol-torker.jpg"
+          >
+            Utvikling av prototype for energieffektiv tørking av kaffebønner i
+            u-land.
+          </EXPCard>
+        </Col>
+        <Col className="p-1" xs={12}>
+          <EXPCard label="Sensorikkpanel" image="/images/sensor-map.png">
+            Kartvisning i 3D av sensordata.
+            <div>
+              <small className="text-muted">
+                Videre info er dessverre underlagt NDA.
+              </small>
+            </div>
+          </EXPCard>
+        </Col>
       </Row>
     </Container>
   );
