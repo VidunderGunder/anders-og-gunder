@@ -27,7 +27,7 @@ export default function Practical() {
             </p>
             <p>Her er noen vanlige alternativer:</p>
             <ul>
-              <li>400kr/timen for ting vi er gode på</li>
+              <li>400kr/timen* for ting vi er gode på</li>
               <li>Satte summer for milepæler</li>
               <li>Justert timelønn for utforskende arbeid</li>
             </ul>
@@ -35,6 +35,11 @@ export default function Practical() {
               Du kan ansette oss, motta faktura eller foreslå en annen løsning
               som er praktisk for deg.
             </p>
+            <small className="text-muted">
+              <i>
+                *Timelønn for ansatt, justers til tilsvarende ved fakturering
+              </i>
+            </small>
           </div>
         </div>
       </Col>
