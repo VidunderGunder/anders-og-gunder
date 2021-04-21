@@ -16,7 +16,7 @@ export default function Practical() {
           </div>
         </div>
       </Col>
-      <Col xs={12}>
+      {/* <Col xs={12}>
         <div style={{ display: "grid", placeItems: "center" }}>
           <div style={{ maxWidth: 625, width: "75%" }}>
             <h2 className="text-center my-5 pt-2">Priser</h2>
@@ -42,7 +42,7 @@ export default function Practical() {
             </small>
           </div>
         </div>
-      </Col>
+      </Col> */}
     </Row>
   );
 }
