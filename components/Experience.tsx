@@ -43,7 +43,13 @@ function EXPCard({ label, image, children = null }) {
           <div className="lead text-light">{children}</div>
         </div>
       </div>
-      <Image src={image} layout="fill" objectFit="cover" alt={label} />
+      <Image
+        src={image}
+        layout="fill"
+        objectFit="cover"
+        alt={label}
+        quality={25}
+      />
     </div>
   );
 }
