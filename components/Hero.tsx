@@ -25,6 +25,7 @@ export default function Hero() {
         }}
       >
         <Image
+          priority
           className="not-selectable"
           alt="Background"
           src="/images/bg.jpg"
