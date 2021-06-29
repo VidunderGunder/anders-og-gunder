@@ -98,7 +98,7 @@ export default function Contact() {
               }}
               className="my-1 mr-lg-1"
               variant="pink"
-              href="https://www.linkedin.com/in/kristian-kram%C3%A5s/"
+              href="https://github.com/VidunderGunder"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
